@@ -55,3 +55,22 @@ SELECT * FROM nombre_tabla;
 
 
 
+VIDEOS DE EVIDENCIA (ENLACES):
+
+Acceso a PGADMIN y a MOTOR POSTGRESQL:
+https://drive.google.com/file/d/1SdT6KYxhcjV3pQLeUAJLaVyXnHHC6ifz/view?usp=sharing
+
+CREACIÓN TABLAS:
+https://drive.google.com/file/d/11ug1C0-vAx3pRVc2h6nKs7eQovjuTlG_/view?usp=sharing
+
+INGRESO DE DATOS:
+https://drive.google.com/file/d/1AbOGd72VZOq1HlMg1Oey2YObO4OHauFS/view?usp=sharing
+
+LEVANTAMIENTO PGADMIN:
+https://drive.google.com/file/d/1WIJMsGWhdhXkOxuzuWlvj6JVZ2t0TBop/view?usp=sharing
+
+
+LEVANTAMIENTO POSTGRESQL ( DESDE EL MINUTO CERO AL MINUTO 2:30 SEG)
+https://drive.google.com/file/d/1jGQo_fzasdSqeICMhNMTU0oa3FeMgUIR/view?usp=sharing
+
+
