@@ -1,2 +1,57 @@
-# servilimar-rodrigoBerrio
+servilimar-rodrigoBerrio
 Practica BASES DE DATOS ( PARCIAL 1)
+
+ INFORME SOBRE LOS PASOS REALIZADOS
+
+ 1. Iniciación en máquina virtual para manejo de sistema operativo Linux-Ubuntu
+
+Se realizó el trabajo práctico sobre una máquina virtual utilizando VirtualBox con sistema operativo Linux Ubuntu.
+
+---
+
+2. Levantamiento de contenedores en Docker
+
+Se levantaron los contenedores correspondientes tanto al motor PostgreSQL como a la herramienta PGADMIN.
+
+Levantamiento del motor PostgreSQL
+
+```bash
+docker run --name ulimar \
+-e POSTGRES_USER=postgres \
+-e POSTGRES_PASSWORD=ulimar \
+-p 5432:5432 \
+-d postgres:12
+
+Levantamiento de la herramienta PGADMIN
+docker run --rm \
+-p 5050:80 \
+--link ulimar:ulimar \
+-e "PGADMIN_DEFAULT_EMAIL=usuario@servilimar.com" \
+-e "PGADMIN_DEFAULT_PASSWORD=limar#123" \
+-d dpage/pgadmin4
+
+Creación de tablas mediante DDL
+Se ingresó a la herramienta PGADMIN y se procedió a crear las tablas utilizando el comando:
+CREATE TABLE
+Las tablas creadas fueron:
+
+usuario
+empleado
+
+Incluyendo:
+
+PRIMARY KEY
+FOREIGN KEY
+restricciones NOT NULL
+
+Inserción de datos mediante DM
+Se utilizaron las instrucciones (para ingresar los registros correspondientes dentro de las tablas):
+INSERT INTO
+VALUES
+
+Consulta de datos:
+Para visualizar los registros almacenados se utilizó la instrucción:
+SELECT * FROM nombre_tabla;
+
+
+
